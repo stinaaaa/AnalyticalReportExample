@@ -28,5 +28,5 @@ d3heatmap(nba_players, scale = "column")
 # Top Scorers {data-width=350}
 
 ```{r}
-knitr::kable(nba_players[1:5,c("G", "MIN", "PTS")])
+knitr::kable(nba_players[1:20,c("G", "MIN", "PTS")])
 ```
